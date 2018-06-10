@@ -2,7 +2,7 @@
  * timer.c
  *
  *  Created on: 8 Jun 2018
- *      Author: Dmitri
+ *      Author: Dmitri Ivanov
  */
 
 

@@ -2,7 +2,7 @@
  * timer.h
  *
  *  Created on: 8 Jun 2018
- *      Author: Dmitri
+ *      Author: Dmitri Ivanov
  */
 
 #ifndef INCLUDE_TIMER_H_

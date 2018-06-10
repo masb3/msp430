@@ -2,7 +2,7 @@
  * main.h
  *
  *  Created on: 8 Jun 2018
- *      Author: Dmitri
+ *      Author: Dmitri Ivanov
  */
 
 #ifndef INCLUDE_MAIN_H_
