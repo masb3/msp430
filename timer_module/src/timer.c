@@ -7,7 +7,6 @@
 
 
 #include "include/timer.h"
-#include "include/main.h"
 
 /** Start local data **/
 
