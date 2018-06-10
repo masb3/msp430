@@ -15,7 +15,7 @@ The hardware timer period is chosen so to match best resolution of SW timer and 
 User is able to start and stop HW timer without any parameters. <br />
 User is able to retrieve time in milliseconds since system start-up. <br />
 To add new timer user must specify timeout, timer mode, timeout resolution, pointer to callback function and pointer to data that should be passed to callback function. <br />
-Timer mode could be one-shot, cyclic or both. <br /> 
+Timer mode could be one-shot, cyclic or both. Timer of mode ‘single’ is freed on its timeout, so Timer module will add new timer on its place when requested. Timer of mode ‘single-cyclic’ is set to mode ‘cyclic’ after one-shot timed out. <br /> 
 Timeout resolution is specified as seconds or milliseconds. Timeout must be greater than zero for specified timer mode. <br />
 Timer module returns recently created timer Id or error code in case of no free timers and incorrect user timeouts. <br />
 Timer starts counting immediately after it has been created. <br /> 
