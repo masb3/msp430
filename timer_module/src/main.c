@@ -7,9 +7,9 @@ int main(void)
 {
   WDTCTL = WDTPW + WDTHOLD;                 // Stop WDT
 
-  ConfCpuClk();
-  HwTimerStart();
-  ConfPort();
+  ConfCpuClk(); // Configure CPU clock source
+  HwTimerStart(); // Start timer which is used by Timer Module; System time is counted from this moment
+  ConfPort(); // Configure MSP430 IOs for test purposes
 
   /* Test timer module */
   uint8_t cb_f1_arg = BIT0;
