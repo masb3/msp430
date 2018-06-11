@@ -335,7 +335,7 @@ __interrupt void HwTimerIsr (void)
                     TimerModule[i].counter++;
                 }
             }
-            if(TimerModule[i].mode == CYCLIC)
+            else if(TimerModule[i].mode == CYCLIC)
             {
                 if(TimerModule[i].counter >= TimerModule[i].cyclic_ticks_compare)
                 {
@@ -347,7 +347,7 @@ __interrupt void HwTimerIsr (void)
                     TimerModule[i].counter++;
                 }
             }
-            if(TimerModule[i].mode == SINGLE_CYCLIC)
+            else if(TimerModule[i].mode == SINGLE_CYCLIC)
             {
                 if(TimerModule[i].counter >= TimerModule[i].single_ticks_compare)
                 {
