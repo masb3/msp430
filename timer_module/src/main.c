@@ -1,5 +1,5 @@
 /*
- * main.h
+ * main.c
  *
  *  Created on: 8 Jun 2018
  *      Author: Dmitri Ivanov
