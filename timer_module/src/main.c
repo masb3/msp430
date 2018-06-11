@@ -1,3 +1,11 @@
+/*
+ * main.h
+ *
+ *  Created on: 8 Jun 2018
+ *      Author: Dmitri Ivanov
+ */
+
+
 #include <stdlib.h>
 #include "include/main.h"
 #include "include/timer.h"
